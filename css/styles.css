@@ -97,17 +97,24 @@ padding: 24px 0;
 .page-footer {
     background-color: #2e2f42;
 }
-
+/* Banner */
 .banner { 
     background-color: #2e2f42;}
-
+    
+    .banner-container {
+        display: block;
+        text-align: center;
+        padding: 188px auto;
+    }
 .banner-titel {
-    font-weight: 700;
+        font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #fff;
+        padding: 188px 0 48px;
+        margin: 0 auto;
+        width: 496px;
 }
 
 .banner-button {
@@ -118,6 +125,11 @@ padding: 24px 0;
             letter-spacing: 0.04em;
             color: #fff;
             cursor: pointer;
+            border-radius: 4px;
+        padding: 16px 32px;
+        margin-bottom: 188px;
+            
+                   
 }
 .banner-button:hover,
 .banner-button:focus {
