@@ -99,13 +99,12 @@ padding: 24px 0;
 }
 /* Banner */
 .banner { 
-    background-color: #2e2f42;}
-    
-    .banner-container {
-        display: block;
-        text-align: center;
-        padding: 188px auto;
-    }
+    background-color: #2e2f42;
+display: block;
+    text-align: center;
+    padding: 188px auto;
+width: 100%;
+}
 .banner-titel {
         font-weight: 700;
         font-size: 56px;
@@ -116,7 +115,6 @@ padding: 24px 0;
         margin: 0 auto;
         width: 496px;
 }
-
 .banner-button {
         background-color: #4d5ae5;
         font-weight: 500;
@@ -127,32 +125,61 @@ padding: 24px 0;
             cursor: pointer;
             border-radius: 4px;
         padding: 16px 32px;
-        margin-bottom: 188px;
-            
-                   
+        margin-bottom: 188px;         
 }
 .banner-button:hover,
 .banner-button:focus {
         background-color: #404bbf;
 }
-
+/* Strengths */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.strengths {
+   width: 100%;
+    padding: 120px 0;
+}
 .strengths-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;}
-
+    color: #2e2f42;
+margin-bottom: 8px;
+}
+    .strengths-list {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+.strengths-item {
+    width: calc( (1158px - 3 * 24px)/ 4);
+}
 .strengths-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
       }
-
+/* Team */
 .team {
     background-color: #f4f4fd;
+    width: 100%;
+        padding: 120px 0;
 }
-
+.team-list {
+    display: flex;
+        align-items: center;
+        gap: 24px;
+}
 .team-title {
     font-weight: 700;
         font-size: 36px;
@@ -161,9 +188,11 @@ padding: 24px 0;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 72px;
 }
 .team-item {
         background-color: #fff;
+        border-radius: 0 0 4px 4px;
 }
 .team-item-title {
     font-weight: 500;
@@ -173,14 +202,21 @@ padding: 24px 0;
         text-align: center;
         color: #2e2f42;
 }
-
+.team-foto {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.team-card {
+    padding: 32px 0;
+}
 .team-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
 }
-
+/* Portfolio */
 .portfolio-title {
     font-weight: 700;
         font-size: 36px;
