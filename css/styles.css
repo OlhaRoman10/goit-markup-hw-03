@@ -110,9 +110,9 @@ width: 100%;
         line-height: 1.07;
         letter-spacing: 0.02em;
         color: #fff;
-        padding: 188px 0 48px;
         margin: 0 auto;
         max-width: 496px;
+        margin-bottom: 48px;
 }
 .banner-button {
         display: block; 
@@ -129,7 +129,7 @@ width: 100%;
             cursor: pointer;
             border-radius: 4px;
         padding: 16px 32px;
-        margin-bottom: 188px;         
+                 
 }
 .banner-button:hover,
 .banner-button:focus {
@@ -279,8 +279,7 @@ height: auto;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        width: 264px;
-        height: auto;
+        max-width: 264px;
 }
 
 
